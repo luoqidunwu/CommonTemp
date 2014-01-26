@@ -10,7 +10,7 @@ public class Person {
 	public int getId() {
 		return id;
 	}
-
+ 
 	public void setId(int id) {
 		this.id = id;
 	}
@@ -47,4 +47,11 @@ public class Person {
 		this.date = date;
 	}
 
+	@Override
+	public String toString() {
+		return "Person [id=" + id + ", name=" + name + ", age=" + age
+				+ ", sex=" + sex + ", date=" + date + "]";
+	}
+	
+	
 }
